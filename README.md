@@ -21,8 +21,6 @@ Do value iteration. Go through every state-action pair in a for loop. The goal o
 
 Finally, we run test episodes and compute the average reward from the test episodes. Each test episode runs until the end of the episode and finds the best action from each current state, then moves to the next state based on that action. State rewards and transits are updated here just as in the 100 random step function. 
 
-is one new_state from that state-action pair and the count of how many times that state-action pair went to this new_state. For each state-action-new_action tuple, we find the reward, the best action in the target state, and the action_value (as shown in the step 2 equation above). 
-
 ## Tabular Q-Learning
 
 ## Deep Q-Learning (DQN)
