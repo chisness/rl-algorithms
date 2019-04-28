@@ -8,12 +8,12 @@ $$
 3. Repeat step 2
 
 Code from Deep Reinforcement Learning by Maxim Lapan. 
-We initialize an Agent that has:
-Environment (env): Based on the OpenAI environment chosen
-State (state)
-Rewards (rewards)
-Transits (transits)
-Values (values)
+We initialize an Agent that has:<br>
+Environment (env): Based on the OpenAI environment chosen<br>
+State (state)<br>
+Rewards (rewards)<br>
+Transits (transits)<br>
+Values (values)<br>
 
 Start by playing 100 random steps. For each step, sample a random action and determine the new_state, reward, and is_done from the selected action. Update the state to the new state (or reset if the episode ended), update the transit counter for this state-action-new_state +=1, and update the rewards for this state-action-new_state to the reward obtained. 
 
