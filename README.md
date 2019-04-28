@@ -11,10 +11,10 @@ Code from Deep Reinforcement Learning by Maxim Lapan.
 
 We initialize an Agent that has:<br>
 Environment (env): Based on the OpenAI environment chosen<br>
-State (state)<br>
-Rewards (rewards)<br>
-Transits (transits)<br>
-Values (values)<br>
+State (state): State in the environment<br>
+Rewards (rewards): float of collections.defaultdict (based on state-action-new_state tuple)<br>
+Transits (transits): collections.Counter of collections.defaultdict (based on state-action-new_state tuple)<br>
+Values (values): float of collections.defaultdict (based on state-action pair)<br>
 
 Start by playing 100 random steps. For each step, sample a random action and determine the new_state, reward, and is_done from the selected action. Update the state to the new state (or reset if the episode ended), update the transit counter for this state-action-new_state +=1, and update the rewards for this state-action-new_state to the reward obtained. 
 
