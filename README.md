@@ -8,6 +8,7 @@ $$
 3. Repeat step 2
 
 Code from Deep Reinforcement Learning by Maxim Lapan. 
+
 We initialize an Agent that has:<br>
 Environment (env): Based on the OpenAI environment chosen<br>
 State (state)<br>
